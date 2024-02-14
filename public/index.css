@@ -1,0 +1,67 @@
+html {
+  height: 100vh;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+}
+.formContainer {
+  width: 80%;
+  margin: 0 auto;
+}
+input[type="file"] {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+input[type="submit"]:hover {
+  opacity:1;
+}
+.formContainer {
+  text-align: center;
+  border: 2px solid;
+}
+.heading{
+  align-content: center;
+  text-align: center;
+}
+.head {
+  margin: 4% 2%;
+}
+
+.upload-img {
+  cursor: pointer;
+  padding-top: 3%;
+}
+
+#file {
+  padding: 5%;
+}
+
+.hidden {
+  display: none;
+}
+
+.submit {
+  padding: 2%;
+  border-radius: 8px;
+  border: 0;
+  background: #447f44;
+  color: white;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.green {
+  color: #07b107;
+  font-weight: 700;
+}
+

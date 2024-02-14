@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <title>Klimb</title>
+  <link rel="stylesheet" href="/index.css" />
+
+</head>
+<body>
+  <div class="head">
+    <h1 class="heading">Add Candidates to Database</h1>
+  </div>
+  <div class="formContainer">
+    <form id="form">  
+      <label for="file">
+        <img src="https://docs.oracle.com/en/cloud/saas/marketing/eloqua-user/Resources/Images/1CommonImages/CloudIcon_30x30.png" alt="" class="upload-img" style="width: 80px;">
+        <p>Please upload your candidate data in .xlsx format:</p>
+      </label>
+      <input id="file" type="file" onchange="canSubmit()" name="myfile" />
+      <p id="fileName"></p>
+      <br/><br/>  
+      <input value="Upload File"  type="submit" class="submit"><br/><br/>  
+    </form>  
+    <div class="status hidden">
+        <p class="green">Thank You!</p>
+        <p><span class="green">✔</span> File Successfully Uploaded.</p>
+        <p>Your records will be processed shortly.</p>
+      </div>
+  </div>
+  <script src="/script.js"></script>
+</body>
+</html>
