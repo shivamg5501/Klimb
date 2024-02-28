@@ -1,38 +1,13 @@
 html {
   height: 100vh;
+  background: #e3e0e0;
 }
-body {
-  font-family: 'Roboto', sans-serif;
-  background-color: white;
-}
-.formContainer {
-  width: 80%;
-  margin: 0 auto;
-}
-input[type="file"] {
-  border: 1px solid #ccc;
-  padding: 10px;
-}
-input[type="submit"] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
-}
-input[type="submit"]:hover {
-  opacity:1;
-}
+
 .formContainer {
   text-align: center;
   border: 2px solid;
 }
-.heading{
-  align-content: center;
-  text-align: center;
-}
+
 .head {
   margin: 4% 2%;
 }
@@ -64,4 +39,3 @@ input[type="submit"]:hover {
   color: #07b107;
   font-weight: 700;
 }
-
